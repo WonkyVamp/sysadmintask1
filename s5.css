@@ -6,11 +6,12 @@
 body
 {
    /* background-color: #90a8c3;
-    background-color: #cccccc;
-    background-image: linear-gradient(to right , );*/
-    background-image: linear-gradient(to right , rgba(100,166,189,0.9), rgba(100,166,189,0.63), rgba(100,166,189,0.4));
-   /* background-image: linear-gradient(to right, rgba(100,166,189,0.6), #90a8c3,#ada7c9 );
-   background-image: linear-gradient(to right , rgba(94,149,197,0.5), rgba(94,149,197,1))*/
+    background-color: #ff8c42;
+    background-image: linear-gradient(to right , rgba(255,140,66,0.4), rgba(255,140,66,0.7), rgba(255,140,66,0.3));
+    /*background-image: linear-gradient(to right , );*/
+   /* background-image: linear-gradient(to right , rgba(100,166,189,0.9), rgba(100,166,189,0.63), rgba(100,166,189,0.4));*/
+    /*background-image: linear-gradient(to right,#ada7c9, rgba(100,166,189,0.6), #90a8c3,#ada7c9 );
+   /*background-image: linear-gradient(to right , rgba(94,149,197,0.5), rgba(94,149,197,1))*/
 }
 .container
 {
@@ -47,12 +48,13 @@ p1
 }
 p2
 {
-    font-size: 20px;
+    font-size: 25px;
     /*font-family: lucida Sans Typewriter;*/
     /*color: rgb(100,166,189);
     color: #cccccc;*/
    color: #5e4955;
-    text-shadow: 0.5px 0.5px 0.5px rgba(100,166,189,0.4) ;
+   /*color: #e4e4e4;*/
+    text-shadow: 0.5px 0.5px 0.5px rgba(100,166,189,0.7) ;
     
 }
 ul
@@ -85,7 +87,7 @@ ul
 {
  /*background-color: #cccccc;*/
   border: none;
-  color: #cccccc;
+  color: whitesmoke;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -117,7 +119,7 @@ ul
     text-transform: uppercase;
     cursor: pointer;
    
-    color: #cccccc;
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -210,6 +212,10 @@ ul
     border-radius: 50%;
     font-size: 8px;
 }
+.button
+{
+    font-size: 8px;
+}
 .image1
 {
    height: 100px;
@@ -222,7 +228,7 @@ p1
 }
 p2
 {
-    font-size: 10px;
+    font-size: 8px;
 }
 }
 
@@ -250,7 +256,11 @@ p2
         width: 275px;
         height: 275px;
         border-radius: 50%;
-        font-size: 9px;
+        font-size: 10px;
+    }
+    .button
+    {
+        font-size: 10px;
     }
 p2
 {
@@ -278,6 +288,10 @@ p2
         width: 275px;
         height: 275px;
         border-radius: 50%;
+        font-size: 13px;
+    }
+    .button
+    {
         font-size: 13px;
     }
 p2
