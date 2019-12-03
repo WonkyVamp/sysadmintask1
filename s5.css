@@ -8,7 +8,7 @@ body
    /* background-color: #90a8c3;
     background-color: #cccccc;
     background-image: linear-gradient(to right , );*/
-    background-image: linear-gradient(to right , rgba(100,166,189,0.9), rgba(100,166,189,0.63), rgba(100,166,189,0.4));
+    background-image: linear-gradient(to right , rgba(100,166,189,0.79), rgba(100,166,189,0.63), rgba(100,166,189,0.4));
    /* background-image: linear-gradient(to right, rgba(100,166,189,0.6), #90a8c3,#ada7c9 );
    background-image: linear-gradient(to right , rgba(94,149,197,0.5), rgba(94,149,197,1))*/
 }
@@ -50,8 +50,9 @@ p2
     font-size: 20px;
     /*font-family: lucida Sans Typewriter;*/
     /*color: rgb(100,166,189);
-    color: #cccccc;*/
-   color: #b598a0;
+    color: #cccccc;
+   color: #b598a0;*/
+    color: #5e4955;
     text-shadow: 0.5px 0.5px 0.5px rgba(100,166,189,0.4) ;
     
 }
