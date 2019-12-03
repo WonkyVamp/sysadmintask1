@@ -1,0 +1,286 @@
+*{
+    text-transform: uppercase;
+    
+    font-family: Helvetica;
+}
+body
+{
+   /* background-color: #90a8c3;
+    background-color: #cccccc;*/
+    background-image: linear-gradient(to right , #cccccc , #90a8c3);
+    /*background-image: linear-gradient(to right , rgba(100,166,189,0.399), rgba(100,166,189,1))
+   /* background-image: linear-gradient(to right, rgba(100,166,189,0.6), #90a8c3,#ada7c9 );
+   background-image: linear-gradient(to right , rgba(94,149,197,0.5), rgba(94,149,197,1))*/
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+}
+.image1
+{
+    max-width: 100%;
+    display: block;
+   /* margin-left: auto;
+    margin-right: auto;*/
+    padding: 1.5em;
+   height: 143px;
+    width: 143px;
+    border-radius: 50%;
+}
+p1
+{
+    font-size: 160px ;
+    /*color: #b4ecfd;*/
+    /*color: rgb(100,166,189);*/
+    color: #5e95c5;
+    text-shadow: 1px 1px 1px #000 ;
+    text-emphasis: 
+}
+.explain404
+{
+    
+    text-align: center;
+}
+p2
+{
+    font-size: 20px;
+    /*font-family: lucida Sans Typewriter;*/
+    /*color: rgb(100,166,189);
+    color: #cccccc;*/
+   color: #b598a0;
+    text-shadow: 0.5px 0.5px 0.5px rgba(100,166,189,0.4) ;
+    
+}
+ul
+{
+    
+    list-style-type: none;
+    padding: 0;
+}
+.wrap
+{
+   /* position: absolute;
+    margin-left: 5px;*/
+   
+    /*padding-left: 10px;*/
+    
+}
+.rounds li
+{
+    margin: 10px 55px;
+    position: relative;
+    width: 25%;
+  /* margin: auto;
+    display: block;
+    box-sizing: border-box;*/
+    float: left;
+    justify-content: space-between;
+  }
+
+.button
+{
+ /*background-color: #cccccc;*/
+  border: none;
+  color: #cccccc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.image2
+{
+    max-width: 100%;
+    /*display: block;
+    margin-left: auto;
+     margin-right: auto;
+     padding: 1.5em;*/
+    height: 350px;
+     width: 350px;
+     border-radius: 50%;  
+   
+}
+.rounds li div
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+    color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+   /* margin: auto;*/
+}
+/*.rounds div.center
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: auto;
+}
+.rounds div.left
+{
+   /*position: relative;
+    float: left;
+     display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    
+}
+.rounds div.right
+{
+    position: relative;
+    float: right;
+}*/
+.rounds div.gbb 
+{
+    /*padding-left: 120px;*/
+    text-align: center;
+    background-color: #5e95c5;
+    transform: rotateY(90deg);
+}
+  
+.rounds div.gbf 
+{
+    /*padding-left: 120px;
+    /*background-color: rgb(100,166,189);*/
+    position: absolute;
+}
+
+  
+.rounds li:hover div.gbf 
+{
+   animation: twirl 0.3s ease-in forwards;
+}
+.rounds li:hover div.gbb 
+{
+    animation: twirl 0.3s 0.3s ease-out forwards reverse;
+}
+  
+@keyframes twirl 
+{
+    0%
+    { 
+        transform: rotateY(0deg)
+    }
+   
+    100% 
+    {
+        transform: rotateY(90deg)
+    }
+}
+
+@media (max-width:600px)
+{
+.rounds li
+{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    padding-left: 23%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.image2
+{
+    max-width: 100%;
+    height: 200px;
+     width: 200px;
+}
+.rounds li div
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 8px;
+}
+.image1
+{
+   height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+p1
+{
+    font-size: 120px ;
+}
+p2
+{
+    font-size: 10px;
+}
+}
+
+@media (min-width:601px) and (max-width:850px)
+{
+    .rounds li
+    {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        display: block;
+        box-sizing: border-box;
+        padding-left: 30%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    .image2
+    {
+        max-width: 100%;
+        height: 275px;
+         width: 275px;
+    }
+    .rounds li div
+    {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+        font-size: 9px;
+    }
+p2
+{
+    font-size: 15px;
+}
+}
+@media (min-width:851px) and (max-width:1300px)
+{
+    .rounds li
+    {
+    margin: 10px 35px;
+    position: relative;
+    width: 25%;
+    float: left;
+    justify-content: space-between;
+    }
+    .image2
+    {
+        max-width: 100%;
+        height: 275px;
+         width: 275px;
+    }
+    .rounds li div
+    {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+        font-size: 13px;
+    }
+p2
+{
+    font-size: 17px;
+}
+}
